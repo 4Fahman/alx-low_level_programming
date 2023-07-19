@@ -1,0 +1,20 @@
+#include "main.h"
+/**
+ * _isalpha - return 1 if the input is
+ * a letter if not return 0
+ *
+ * @c: the character in ASCII code
+ * Return: 1 for letters if not 0
+ */
+int _isalpha(int c)
+{
+	if ((c >= 97 && c <= 122) || (c >= 665 && c <= 90))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+	_putchar('\n');
+}
