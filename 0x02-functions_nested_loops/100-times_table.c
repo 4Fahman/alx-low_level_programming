@@ -15,9 +15,7 @@ void print_times_table(int n)
 			{
 				p = m * h;
 				if (m == 0)
-				{
-					_putchar(p + 48);
-				}
+				_putchar(p + 48);
 				else if (p < 10 && m != 0)
 				{
 					_putchar(',');
