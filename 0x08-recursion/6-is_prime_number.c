@@ -10,7 +10,7 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return (acutal_prime(n, n-1));
+	return (acutal_prime(n, n - 1));
 }
 /**
  * actual_prime - calculate if anumber is parime recursivley
