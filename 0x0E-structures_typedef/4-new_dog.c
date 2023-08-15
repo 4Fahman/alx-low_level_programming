@@ -18,7 +18,7 @@ int _strlen(char *s)
 	return (i);
 }
 /**
- * _strcpy - copies the string pointed to be arc
+ * *_strcpy - copies the string pointed to be arc
  * @dest: pointer to the buffer in which we coppy the string
  * @arc: string to be copied
  * Return: the pointer to dest
