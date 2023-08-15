@@ -4,7 +4,7 @@
  * struct dog - a dog's basicinfo
  * @name: First member
  * @age: Second member
- * @@owner: Third member
+ * @owner: Third member
  * Description: Longer description
  */
 struct dog
@@ -14,7 +14,7 @@ struct dog
 	char *owner;
 };
 /**
- * dog_t - trpe for struct dog
+ * dog_t - typedef for struct dog
  */
 typedef struct dog dog_t;
 
